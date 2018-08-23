@@ -1,0 +1,320 @@
+/*
+ Theme Name:   Soho Hotel Child
+ Theme URI:    https://room101.com
+ Description:  Soho hotel child theme
+ Author:       Ismael Garcia 
+ Author URI:   https://leamsigc.com
+ Template:     sohohotel
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Soho-hotel-child
+*/
+:root {
+  --main-color: #35bef3;
+  --secondary-color: #fdb22b;
+  --main-bg-color: #333;
+  --main-text-color: #eee;
+  --main-white: #fff;
+}
+
+.top-banner {
+  background: var(--main-color);
+}
+.top-about > a {
+  background: var(--secondary-color);
+  color: var(--main-text-color);
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+div[role='banner'] {
+  background: var(--main-bg-color);
+}
+div[role='banner'] .content-wrapper {
+  width: 1156px;
+}
+div[role='banner'] .content-wrapper .textwidget,
+.call-now h5,
+.call-now h3 {
+  color: var(--main-text-color);
+}
+.call-now h2 > a {
+  color: var(--main-color);
+}
+/* Menu css */
+body.home .menu-bar,
+.menu-bar {
+  background: var(--main-bg-color) !important;
+}
+#megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item > a {
+  border-left-color: transparent;
+}
+#megaMenu li span {
+  color: var(--main-white) !important;
+}
+#megaMenu .current-menu-item,
+#megaMenu li:hover,
+#megaMenu ul.megaMenu > li.menu-item:hover > a,
+#megaMenu ul.megaMenu > li.menu-item > a:hover,
+#megaMenu ul.megaMenu > li.menu-item:hover > a,
+#megaMenu ul.megaMenu > li.menu-item > a:hover,
+#megaMenu ul.megaMenu > li.menu-item.megaHover > a,
+#megaMenu ul.megaMenu > li.menu-item:hover > span.um-anchoremulator,
+#megaMenu ul.megaMenu > li.menu-item > span.um-anchoremulator:hover,
+#megaMenu ul.megaMenu > li.menu-item.megaHover > span.um-anchoremulator {
+  background: var(--main-color);
+}
+#menu-item-96398 ul .wpmega-link-title {
+  background-color: var(--main-color) !important;
+}
+/* Search box */
+#slider .home-reservation-box {
+  background: var(--main-color) !important;
+  -webkit-box-shadow: 12px 6px 2px 0px rgba(19, 19, 19, 0.2);
+  box-shadow: 12px 6px 2px 0px rgba(19, 19, 19, 0.2);
+  border: none;
+}
+.home-reservation-box .bookbutton {
+  background-image: none !important;
+  color: var(--main-text-color) !important;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.home-reservation-box input[type='submit'] {
+  background: var(--secondary-color) !important;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.home-reservation-box input[type='submit']:hover {
+  background: var(--main-bg-color);
+  color: var(--secondary-color) !important;
+}
+#slider {
+  margin-bottom: 5rem;
+}
+/* Top DEALS */
+#wrapper > .content-wrapper {
+  /* width: 100%; */
+  padding: 3rem 1rem;
+  background: none;
+  width: 1200px;
+  /* background: url('http://travelwp.physcode.com/wp-content/uploads/2016/09/bg-popular.jpg') center /cover; */
+}
+
+#wrapper > .content-wrapper .ilab-home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.ilab-home-content > p {
+  color: var(--main-bg-color);
+}
+.ilab-home-content h2 > a {
+  color: var(--main-bg-color);
+}
+.ilab-home-content h2 > a:hover {
+  color: var(--main-text-color);
+  /* background:red; */
+}
+.ilab-home-content h2 span,
+.ilab-most-popular h2 span {
+  color: var(--secondary-color);
+}
+.ilab-home-content .one-third {
+  background: var(--main-white);
+}
+.ilab-most-popular .one-third {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.ilab-most-popular {
+  margin-top: 4rem;
+}
+.menu-bar {
+  background: inherit;
+}
+
+/* new css */
+.ilab-home-content .one-third {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4px;
+  min-height: 600px;
+  /* 	max-height:600px; */
+}
+.ilab-home-content .listing-php-data {
+  text-align: left;
+  padding: 0.2rem 0.5rem;
+  max-height: 200px;
+  overflow: auto;
+}
+.ilab-home-content .one-third:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.ilab-home-content .one-third > a > img {
+  width: 100%;
+}
+.widgettitle {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  display: inline-block;
+  border-bottom: 0.2rem solid #eee;
+}
+.menu li a {
+  display: block;
+  line-height: 150%;
+  border-bottom: 1px solid #eee;
+  padding: 0.2rem 0;
+}
+
+.accommodation-listing .col {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-bottom: 1rem !important;
+}
+.accommodation-listing .col:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.accommodation-listing .title1 > h2 {
+  line-height: 1.1;
+  padding: 0 0.5rem;
+}
+.accommodation-listing .col p {
+  padding: 0.2rem 0.4rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .ilab-home-content .one-third {
+    width: 95%;
+  }
+  .ilab-home-content .one-third {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #wrapper > .content-wrapper {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+/* CARD FROM DESTINATIONS */
+
+.accommodation-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.accommodation-listing .col {
+  width: 45%;
+}
+.accommodation-listing .col:nth-child(3n) {
+  margin: 0 3% 40px 0;
+}
+/* set a image h */
+.accommodation-listing .portfolio-image {
+  max-height: 223px;
+}
+
+/*  CONTACT US PAGE*/
+.customize-support #wrapper {
+  background: #f3f3f3;
+}
+
+/*CONTACT US FORM   */
+
+.form-container * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-container {
+  /* 	box-sizing: border-box; */
+  font-family: 'Open Sans', helvetica !important;
+  color: #384047;
+  max-width: 700px !important;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.28);
+}
+.form-container input[type='text'],
+.form-container input[type='email'],
+.form-container input[type='tel'],
+.form-container textarea,
+.form-container select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 1rem;
+  height: auto;
+  outline: 0;
+  padding: 15px !important;
+  width: 100% !important;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+.form-container input[type='radio'] {
+  margin: 0 4px 8px 0;
+}
+.form-container select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+.form-container button,
+.form-container input[type='submit'] {
+  padding: 19px 39px !important;
+  color: #fff;
+  background-color: var(--main-color, #33bef4);
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100% !important;
+  border: 1px solid var(--main-color, #33bef4);
+  border-width: 1px 1px 3px;
+  -webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+.form-container legend {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.form-container input + br {
+  display: none;
+}
+.form-container label.light {
+  font-weight: 300;
+  display: inline;
+}
+.dp-none {
+  display: none;
+}
